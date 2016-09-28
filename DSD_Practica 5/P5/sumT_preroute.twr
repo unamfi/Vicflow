@@ -1,0 +1,97 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -filter
+E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/P5/iseconfig/filter.filter
+-intstyle ise -e 3 -s 5 -n 3 -xml sumT_preroute.twx sumT_map.ncd -o
+sumT_preroute.twr sumT.pcf
+
+Design file:              sumT_map.ncd
+Physical constraint file: sumT.pcf
+Device,package,speed:     xc3s200,ft256,-5 (PRODUCTION 1.39 2013-10-13)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3284 - This timing report was generated using estimated delay 
+   information.  For accurate numbers, please refer to the post Place and Route 
+   timing report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+CiT            |St<0>          |    6.159|
+CiT            |St<1>          |    6.738|
+CiT            |St<2>          |    7.317|
+CiT            |St<3>          |    7.896|
+CiT            |St<4>          |    7.896|
+VA<0>          |St<0>          |    6.159|
+VA<0>          |St<1>          |    6.738|
+VA<0>          |St<2>          |    7.317|
+VA<0>          |St<3>          |    7.896|
+VA<0>          |St<4>          |    7.896|
+VA<1>          |St<1>          |    6.159|
+VA<1>          |St<2>          |    6.738|
+VA<1>          |St<3>          |    7.317|
+VA<1>          |St<4>          |    7.317|
+VA<2>          |St<2>          |    6.159|
+VA<2>          |St<3>          |    6.738|
+VA<2>          |St<4>          |    6.738|
+VA<3>          |St<3>          |    6.159|
+VA<3>          |St<4>          |    6.159|
+VB<0>          |St<0>          |    6.159|
+VB<0>          |St<1>          |    6.738|
+VB<0>          |St<2>          |    7.317|
+VB<0>          |St<3>          |    7.896|
+VB<0>          |St<4>          |    7.896|
+VB<1>          |St<1>          |    6.159|
+VB<1>          |St<2>          |    6.738|
+VB<1>          |St<3>          |    7.317|
+VB<1>          |St<4>          |    7.317|
+VB<2>          |St<2>          |    6.159|
+VB<2>          |St<3>          |    6.738|
+VB<2>          |St<4>          |    6.738|
+VB<3>          |St<3>          |    6.159|
+VB<3>          |St<4>          |    6.159|
+---------------+---------------+---------+
+
+
+Analysis completed Tue Mar 22 18:02:08 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 122 MB
+
+
+

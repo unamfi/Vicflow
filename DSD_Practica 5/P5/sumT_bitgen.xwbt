@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\UNAM_IngComputacion\5to_Semestre\DisenoSistemasDigitales\Laboratorio\DSD_Practica5\P5\sumT.ncd
+OUTFILE=E:\UNAM_IngComputacion\5to_Semestre\DisenoSistemasDigitales\Laboratorio\DSD_Practica5\P5\sumT.bit
+FAMILY=Spartan3
+PART=xc3s200-5ft256
+WORKINGDIR=E:\UNAM_IngComputacion\5to_Semestre\DisenoSistemasDigitales\Laboratorio\DSD_Practica5\P5
+LICENSE=WebPack
+USER_INFO=211155606_0_0_370

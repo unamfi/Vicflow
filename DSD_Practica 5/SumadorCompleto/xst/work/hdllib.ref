@@ -1,0 +1,12 @@
+AR display behavioral E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Display.vhd sub00/vhpl11 1459578497
+AR decodificador xx E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Decodificador.vhd sub00/vhpl09 1459575419
+EN display NULL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Display.vhd sub00/vhpl10 1459578496
+AR sumadorcompleto behavioral E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/SumadorCompleto.vhd sub00/vhpl02 1459579915
+AR unidadaritmetica behavioral E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/UnidadAritmetica.vhd sub00/vhpl05 1459579985
+AR deco behavioral E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Deco.vhd sub00/vhpl07 1459579917
+AR sumadorparalelo behavioral E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/SumadorParalelo.vhd sub00/vhpl04 1459579913
+EN sumadorcompleto NULL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/SumadorCompleto.vhd sub00/vhpl01 1459579914
+EN sumadorparalelo NULL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/SumadorParalelo.vhd sub00/vhpl03 1459579912
+EN decodificador NULL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Decodificador.vhd sub00/vhpl08 1459575418
+EN unidadaritmetica NULL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/UnidadAritmetica.vhd sub00/vhpl00 1459579984
+EN deco NULL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Deco.vhd sub00/vhpl06 1459579916

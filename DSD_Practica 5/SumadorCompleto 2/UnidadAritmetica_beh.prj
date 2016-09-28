@@ -1,0 +1,3 @@
+vhdl work "SumadorParalelo.vhd"
+vhdl work "SumadorCompleto.vhd"
+vhdl work "UnidadAritmetica.vhd"

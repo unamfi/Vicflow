@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+sumT instance_name (
+    .VA(VA), 
+    .VB(VB), 
+    .CiT(CiT), 
+    .St(St)
+    );
+
+

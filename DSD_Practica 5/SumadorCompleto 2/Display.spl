@@ -1,0 +1,5 @@
+[Inputs]
+=SIGN[10:0]=
+[Outputs]
+=LEDS[7:0]=
+[BiDir]

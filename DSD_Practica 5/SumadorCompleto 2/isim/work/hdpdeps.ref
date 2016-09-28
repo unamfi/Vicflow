@@ -1,0 +1,56 @@
+V3 24
+FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/SumadorCompleto.vhd 2016/03/22.21:02:32 I.34
+EN work/SumadorCompleto 1459565909 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/SumadorCompleto.vhd \
+      PB ieee/std_logic_1164 1156038724 PB ieee/std_logic_arith 1156038726 \
+      PB ieee/STD_LOGIC_UNSIGNED 1156038732
+AR work/SumadorCompleto/Behavioral 1459565910 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/SumadorCompleto.vhd \
+      EN work/SumadorCompleto 1459565909
+FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Display.vhd 2016/04/02.00:24:36 I.34
+AR work/Display/Behavioral -1 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Display.vhd \
+      EN work/Display 1459578369
+FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Test.vhw 2016/04/02.00:55:14 I.34
+EN work/Test 1459580129 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Test.vhw \
+      PB ieee/std_logic_1164 1156038724 PB ieee/std_logic_arith 1156038726 \
+      PB ieee/STD_LOGIC_UNSIGNED 1156038732 PB ieee/STD_LOGIC_TEXTIO 1156038734 \
+      PB std/textio 1156038712
+AR work/Test/testbench_arch 1459580130 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Test.vhw \
+      EN work/Test 1459580129 CP UnidadAritmetica PB ieee/STD_LOGIC_TEXTIO 1156038734
+FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Display.vhw 2016/04/02.00:39:29 I.34
+EN work/Display 1459579190 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Display.vhw \
+      PB ieee/std_logic_1164 1156038724 PB ieee/std_logic_arith 1156038726 \
+      PB ieee/STD_LOGIC_UNSIGNED 1156038732 PB ieee/STD_LOGIC_TEXTIO 1156038734 \
+      PB std/textio 1156038712
+AR work/Display/testbench_arch 1459579191 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Display.vhw \
+      EN work/Display 1459579190 CP UnidadAritmetica PB ieee/STD_LOGIC_TEXTIO 1156038734
+FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/UnidadAritmetica.vhd 2016/04/02.00:50:58 I.34
+EN work/UnidadAritmetica 1459580127 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/UnidadAritmetica.vhd \
+      PB ieee/std_logic_1164 1156038724 PB ieee/std_logic_arith 1156038726 \
+      PB ieee/STD_LOGIC_UNSIGNED 1156038732
+AR work/UnidadAritmetica/Behavioral 1459580128 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/UnidadAritmetica.vhd \
+      EN work/UnidadAritmetica 1459580127 CP SumadorParalelo CP SumadorCompleto \
+      CP Deco
+FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/SumadorParalelo.vhd 2016/04/01.20:49:11 I.34
+EN work/SumadorParalelo 1459565907 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/SumadorParalelo.vhd \
+      PB ieee/std_logic_1164 1156038724 PB ieee/std_logic_arith 1156038726 \
+      PB ieee/STD_LOGIC_UNSIGNED 1156038732
+AR work/SumadorParalelo/Behavioral 1459565908 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/SumadorParalelo.vhd \
+      EN work/SumadorParalelo 1459565907
+FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Deco.vhd 2016/04/02.00:46:54 I.34
+EN work/Deco 1459580125 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Deco.vhd \
+      PB ieee/std_logic_1164 1156038724 PB ieee/std_logic_arith 1156038726 \
+      PB ieee/STD_LOGIC_UNSIGNED 1156038732
+AR work/Deco/Behavioral 1459580126 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Deco.vhd \
+      EN work/Deco 1459580125

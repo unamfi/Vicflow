@@ -1,0 +1,5 @@
+vhdl work "SumadorCompleto.vhd"
+vhdl work "FuncionB.vhd"
+vhdl work "Deco.vhd"
+vhdl work "Arithmetic.vhd"
+vhdl work "BlackBox.vhd"

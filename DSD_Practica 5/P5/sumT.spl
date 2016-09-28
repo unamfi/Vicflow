@@ -1,0 +1,7 @@
+[Inputs]
+CiT
+=VA[3:0]=
+=VB[3:0]=
+[Outputs]
+=St[4:0]=
+[BiDir]

@@ -1,0 +1,7 @@
+xst -ise "F:/prac4/cc/cc.ise" -intstyle ise -ifn cop2.xst -ofn cop2.syr
+ngdbuild -ise "F:/prac4/cc/cc.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-5 "cop2.ngc" cop2.ngd
+ngdbuild -ise "F:/prac4/cc/cc.ise" -intstyle ise -dd _ngo -nt timestamp -uc "cop2.ucf" -p xc3s200-ft256-5 "cop2.ngc" cop2.ngd
+map -ise "F:/prac4/cc/cc.ise" -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -o cop2_map.ncd cop2.ngd cop2.pcf
+par -ise "F:/prac4/cc/cc.ise" -w -intstyle ise -ol std -t 1 cop2_map.ncd cop2.ncd cop2.pcf
+trce -ise "F:/prac4/cc/cc.ise" -intstyle ise -e 3 -l 3 -s 5 -xml cop2 cop2.ncd -o cop2.twr cop2.pcf -ucf cop2.ucf
+bitgen -ise "F:/prac4/cc/cc.ise" -intstyle ise -f cop2.ut cop2.ncd

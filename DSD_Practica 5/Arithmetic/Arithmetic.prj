@@ -1,0 +1,3 @@
+vhdl work "SumadorCompleto.vhd"
+vhdl work "FuncionB.vhd"
+vhdl work "Arithmetic.vhd"

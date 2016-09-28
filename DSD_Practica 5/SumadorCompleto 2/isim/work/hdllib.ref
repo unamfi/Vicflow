@@ -1,0 +1,13 @@
+AR display behavioral E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Display.vhd sub00/vhpl11 1459578370
+EN display NULL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Display.vhw sub00/vhpl10 1459579190
+AR sumadorcompleto behavioral E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/SumadorCompleto.vhd sub00/vhpl03 1459565910
+AR unidadaritmetica behavioral E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/UnidadAritmetica.vhd sub00/vhpl05 1459580128
+AR deco behavioral E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Deco.vhd sub00/vhpl09 1459580126
+AR sumadorparalelo behavioral E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/SumadorParalelo.vhd sub00/vhpl01 1459565908
+EN sumadorcompleto NULL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/SumadorCompleto.vhd sub00/vhpl02 1459565909
+AR test testbench_arch E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Test.vhw sub00/vhpl07 1459580130
+AR display testbench_arch E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Display.vhw sub00/vhpl12 1459579191
+EN sumadorparalelo NULL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/SumadorParalelo.vhd sub00/vhpl00 1459565907
+EN test NULL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Test.vhw sub00/vhpl06 1459580129
+EN unidadaritmetica NULL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/UnidadAritmetica.vhd sub00/vhpl04 1459580127
+EN deco NULL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Deco.vhd sub00/vhpl08 1459580125

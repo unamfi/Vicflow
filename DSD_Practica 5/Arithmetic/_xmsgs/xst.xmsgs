@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLParsers" num="3384" delta="new" >&quot;<arg fmt="%s" index="1">E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/Deco.vhd</arg>&quot; Line <arg fmt="%d" index="2">24</arg>. Size mismatch.  String literal &quot;<arg fmt="%s" index="3">0000</arg>&quot; is of size <arg fmt="%u" index="4">4</arg> but is expected to be of size <arg fmt="%u" index="5">5</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3384" delta="new" >&quot;<arg fmt="%s" index="1">E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/Deco.vhd</arg>&quot; Line <arg fmt="%d" index="2">25</arg>. Size mismatch.  String literal &quot;<arg fmt="%s" index="3">0001</arg>&quot; is of size <arg fmt="%u" index="4">4</arg> but is expected to be of size <arg fmt="%u" index="5">5</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3384" delta="new" >&quot;<arg fmt="%s" index="1">E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/Deco.vhd</arg>&quot; Line <arg fmt="%d" index="2">26</arg>. Size mismatch.  String literal &quot;<arg fmt="%s" index="3">0010</arg>&quot; is of size <arg fmt="%u" index="4">4</arg> but is expected to be of size <arg fmt="%u" index="5">5</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3384" delta="new" >&quot;<arg fmt="%s" index="1">E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/Deco.vhd</arg>&quot; Line <arg fmt="%d" index="2">27</arg>. Size mismatch.  String literal &quot;<arg fmt="%s" index="3">0011</arg>&quot; is of size <arg fmt="%u" index="4">4</arg> but is expected to be of size <arg fmt="%u" index="5">5</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3384" delta="new" >&quot;<arg fmt="%s" index="1">E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/Deco.vhd</arg>&quot; Line <arg fmt="%d" index="2">28</arg>. Size mismatch.  String literal &quot;<arg fmt="%s" index="3">0100</arg>&quot; is of size <arg fmt="%u" index="4">4</arg> but is expected to be of size <arg fmt="%u" index="5">5</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3384" delta="new" >&quot;<arg fmt="%s" index="1">E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/Deco.vhd</arg>&quot; Line <arg fmt="%d" index="2">29</arg>. Size mismatch.  String literal &quot;<arg fmt="%s" index="3">0101</arg>&quot; is of size <arg fmt="%u" index="4">4</arg> but is expected to be of size <arg fmt="%u" index="5">5</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3384" delta="new" >&quot;<arg fmt="%s" index="1">E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/Deco.vhd</arg>&quot; Line <arg fmt="%d" index="2">30</arg>. Size mismatch.  String literal &quot;<arg fmt="%s" index="3">0110</arg>&quot; is of size <arg fmt="%u" index="4">4</arg> but is expected to be of size <arg fmt="%u" index="5">5</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3384" delta="new" >&quot;<arg fmt="%s" index="1">E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/Deco.vhd</arg>&quot; Line <arg fmt="%d" index="2">31</arg>. Size mismatch.  String literal &quot;<arg fmt="%s" index="3">0111</arg>&quot; is of size <arg fmt="%u" index="4">4</arg> but is expected to be of size <arg fmt="%u" index="5">5</arg>.
+</msg>
+
+</messages>
+

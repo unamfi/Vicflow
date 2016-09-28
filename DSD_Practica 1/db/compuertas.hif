@@ -1,0 +1,60 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+11
+907
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+compuertas
+# storage
+db|compuertas.(0).cnf
+db|compuertas.(0).cnf
+# case_insensitive
+# source_file
+compuertas.bdf
+5a2f1c732fecb9e301ff35afcd6167
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+compuertas2
+# storage
+db|compuertas.(1).cnf
+db|compuertas.(1).cnf
+# case_insensitive
+# source_file
+compuertas2.bdf
+36f444b8ca5b652cf88e7b2e2987a64
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

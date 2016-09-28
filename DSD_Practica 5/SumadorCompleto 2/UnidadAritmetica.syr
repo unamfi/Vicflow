@@ -1,0 +1,354 @@
+Release 8.2.03i - xst I.34
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.34 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.35 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: UnidadAritmetica.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "UnidadAritmetica.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "UnidadAritmetica"
+Output Format                      : NGC
+Target Device                      : xc3s200-5-ft256
+
+---- Source Options
+Top Module Name                    : UnidadAritmetica
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Write Timing Constraints           : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : UnidadAritmetica.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+safe_implementation                : No
+Optimize Instantiated Primitives   : NO
+use_clock_enable                   : Yes
+use_sync_set                       : Yes
+use_sync_reset                     : Yes
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/SumadorParalelo.vhd" in Library work.
+Architecture behavioral of Entity sumadorparalelo is up to date.
+Compiling vhdl file "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/SumadorCompleto.vhd" in Library work.
+Architecture behavioral of Entity sumadorcompleto is up to date.
+Compiling vhdl file "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Deco.vhd" in Library work.
+Architecture behavioral of Entity deco is up to date.
+Compiling vhdl file "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/UnidadAritmetica.vhd" in Library work.
+Architecture behavioral of Entity unidadaritmetica is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <UnidadAritmetica> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SumadorParalelo> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SumadorCompleto> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Deco> in library <work> (architecture <behavioral>).
+
+Building hierarchy successfully finished.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <UnidadAritmetica> in library <work> (Architecture <behavioral>).
+Entity <UnidadAritmetica> analyzed. Unit <UnidadAritmetica> generated.
+
+Analyzing Entity <SumadorParalelo> in library <work> (Architecture <behavioral>).
+Entity <SumadorParalelo> analyzed. Unit <SumadorParalelo> generated.
+
+Analyzing Entity <SumadorCompleto> in library <work> (Architecture <behavioral>).
+Entity <SumadorCompleto> analyzed. Unit <SumadorCompleto> generated.
+
+Analyzing Entity <Deco> in library <work> (Architecture <behavioral>).
+Entity <Deco> analyzed. Unit <Deco> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <SumadorParalelo>.
+    Related source file is "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/SumadorParalelo.vhd".
+Unit <SumadorParalelo> synthesized.
+
+
+Synthesizing Unit <SumadorCompleto>.
+    Related source file is "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/SumadorCompleto.vhd".
+    Found 1-bit xor2 for signal <s>.
+    Found 1-bit xor2 for signal <$xor0002> created at line 19.
+Unit <SumadorCompleto> synthesized.
+
+
+Synthesizing Unit <Deco>.
+    Related source file is "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/Deco.vhd".
+WARNING:Xst:737 - Found 8-bit latch for signal <sal>.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+Unit <Deco> synthesized.
+
+
+Synthesizing Unit <UnidadAritmetica>.
+    Related source file is "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/SumadorCompleto/UnidadAritmetica.vhd".
+Unit <UnidadAritmetica> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 1
+ 8-bit latch                                           : 1
+# Xors                                                 : 8
+ 1-bit xor2                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s200.nph' in environment C:\Xilinx\8.2i.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 1
+ 8-bit latch                                           : 1
+# Xors                                                 : 8
+ 1-bit xor2                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <UnidadAritmetica> ...
+
+Optimizing unit <Deco> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block UnidadAritmetica, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : UnidadAritmetica.ngr
+Top Level Output File Name         : UnidadAritmetica
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 20
+
+Cell Usage :
+# BELS                             : 33
+#      INV                         : 2
+#      LUT3                        : 11
+#      LUT4                        : 16
+#      MUXF5                       : 4
+# FlipFlops/Latches                : 8
+#      LD                          : 8
+# IO Buffers                       : 20
+#      IBUF                        : 12
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200ft256-5 
+
+ Number of Slices:                      16  out of   1920     0%  
+ Number of 4 input LUTs:                29  out of   3840     0%  
+ Number of IOs:                         20
+ Number of bonded IOBs:                 20  out of    173    11%  
+    IOB Flip Flops:                      8
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+FC1/_not0002(FC1/_not000211:O)     | NONE(*)(FC1/sal_6)     | 8     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 9.565ns
+   Maximum output required time after clock: 6.141ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'FC1/_not0002'
+  Total number of paths / destination ports: 412 / 8
+-------------------------------------------------------------------------
+Offset:              9.565ns (Levels of Logic = 7)
+  Source:            PB<0> (PAD)
+  Destination:       FC1/sal_7 (LATCH)
+  Destination Clock: FC1/_not0002 falling
+
+  Data Path: PB<0> to FC1/sal_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.715   0.976  PB_0_IBUF (PB_0_IBUF)
+     LUT3:I0->O            2   0.479   0.915  FA1/Ni1 (sigA<0>)
+     LUT3:I1->O            5   0.479   0.953  FB1/co1 (sigB<0>)
+     LUT3:I1->O            4   0.479   0.949  FB2/co1 (sigB<1>)
+     LUT3:I1->O            2   0.479   0.915  FB3/co1 (sigB<2>)
+     LUT3:I1->O            8   0.479   1.091  FB4/Mxor_s_Result1 (sigC<3>)
+     LUT4:I1->O            1   0.479   0.000  FC1/_mux0000<5>2 (FC1/_mux0000<5>)
+     LD:D                      0.176          FC1/sal_5
+    ----------------------------------------
+    Total                      9.565ns (3.765ns logic, 5.800ns route)
+                                       (39.4% logic, 60.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'FC1/_not0002'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              6.141ns (Levels of Logic = 1)
+  Source:            FC1/sal_7 (LATCH)
+  Destination:       R<7> (PAD)
+  Source Clock:      FC1/_not0002 falling
+
+  Data Path: FC1/sal_7 to R<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.551   0.681  FC1/sal_7 (FC1/sal_7)
+     OBUF:I->O                 4.909          R_7_OBUF (R<7>)
+    ----------------------------------------
+    Total                      6.141ns (5.460ns logic, 0.681ns route)
+                                       (88.9% logic, 11.1% route)
+
+=========================================================================
+CPU : 13.84 / 14.27 s | Elapsed : 14.00 / 14.00 s
+ 
+--> 
+
+Total memory usage is 216124 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

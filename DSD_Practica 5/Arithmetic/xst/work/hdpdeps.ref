@@ -1,0 +1,39 @@
+V3 19
+FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/Arithmetic.vhd 2016/03/28.15:23:34 P.20131013
+EN work/Arithmetic 1459201739 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/Arithmetic.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Arithmetic/Behavioral 1459201740 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/Arithmetic.vhd \
+      EN work/Arithmetic 1459201739 CP FuncionB CP SumadorCompleto
+FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/BlackBox.vhd 2016/03/28.15:48:48 P.20131013
+EN work/BlackBox 1459201743 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/BlackBox.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/BlackBox/Behavioral 1459201744 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/BlackBox.vhd \
+      EN work/BlackBox 1459201743 CP Arithmetic CP Deco
+FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/Deco.vhd 2016/03/28.15:25:39 P.20131013
+EN work/Deco 1459201741 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/Deco.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Deco/Behavioral 1459201742 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/Deco.vhd \
+      EN work/Deco 1459201741
+FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/FuncionB.vhd 2016/03/22.21:16:33 P.20131013
+EN work/FuncionB 1459201735 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/FuncionB.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/FuncionB/Comportamiento 1459201736 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/FuncionB.vhd \
+      EN work/FuncionB 1459201735
+FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/SumadorCompleto.vhd 2016/03/22.21:02:32 P.20131013
+EN work/SumadorCompleto 1459201737 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/SumadorCompleto.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/SumadorCompleto/Behavioral 1459201738 \
+      FL E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/Arithmetic/SumadorCompleto.vhd \
+      EN work/SumadorCompleto 1459201737

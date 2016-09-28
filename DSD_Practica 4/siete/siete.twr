@@ -1,0 +1,78 @@
+--------------------------------------------------------------------------------
+Release 8.2i Trace 
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\bin\nt\trce.exe -ise F:/prac4/siete/siete.ise -intstyle ise -e 3 -l 3
+-s 5 -xml siete siete.ncd -o siete.twr siete.pcf -ucf siete.ucf
+
+Design file:              siete.ncd
+Physical constraint file: siete.pcf
+Device,speed:             xc3s200,-5 (PRODUCTION 1.38 2006-05-03)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+E<0>           |S<0>           |    8.506|
+E<0>           |S<1>           |    8.622|
+E<0>           |S<2>           |    8.433|
+E<0>           |S<3>           |    9.015|
+E<0>           |S<4>           |    8.915|
+E<0>           |S<5>           |    8.530|
+E<0>           |S<6>           |    8.308|
+E<0>           |S<7>           |    8.171|
+E<1>           |S<0>           |    8.375|
+E<1>           |S<1>           |    8.511|
+E<1>           |S<2>           |    8.322|
+E<1>           |S<3>           |    8.904|
+E<1>           |S<4>           |    8.883|
+E<1>           |S<5>           |    8.498|
+E<1>           |S<6>           |    8.276|
+E<1>           |S<7>           |    8.076|
+E<2>           |S<0>           |    8.418|
+E<2>           |S<1>           |    8.261|
+E<2>           |S<2>           |    8.072|
+E<2>           |S<3>           |    8.365|
+E<2>           |S<4>           |    8.339|
+E<2>           |S<5>           |    8.243|
+E<2>           |S<6>           |    8.021|
+E<2>           |S<7>           |    8.187|
+E<3>           |S<0>           |    8.352|
+E<3>           |S<1>           |    8.085|
+E<3>           |S<2>           |    7.896|
+E<3>           |S<3>           |    8.478|
+E<3>           |S<4>           |    8.391|
+E<3>           |S<5>           |    8.006|
+E<3>           |S<6>           |    7.784|
+E<3>           |S<7>           |    7.948|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Feb 29 12:04:39 2016
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 159 MB
+
+
+

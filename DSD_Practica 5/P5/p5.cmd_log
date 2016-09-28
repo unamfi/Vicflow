@@ -1,0 +1,2 @@
+vhdtdtfi -lib work p5.vhd -prj P5 -o p5.spl -module p5 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 p5.spl E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/P5/p5.sym 

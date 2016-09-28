@@ -1,0 +1,123 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+11
+932
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+Completo
+# storage
+db|Sistemas.(0).cnf
+db|Sistemas.(0).cnf
+# case_insensitive
+# source_file
+completo.bdf
+4bdf6e9d7cedef6c65bbee2a41bf9ed
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+Sistema04
+# storage
+db|Sistemas.(1).cnf
+db|Sistemas.(1).cnf
+# case_insensitive
+# source_file
+sistema04.bdf
+2451952a6fde2d2cc279d6de0edf7c8
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Sistema04:inst3
+}
+# macro_sequence
+
+# end
+# entity
+Sistema03
+# storage
+db|Sistemas.(2).cnf
+db|Sistemas.(2).cnf
+# case_insensitive
+# source_file
+sistema03.bdf
+f11ba6dc21bfa9dececb75d469605b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Sistema03:inst2
+}
+# macro_sequence
+
+# end
+# entity
+Sistema02
+# storage
+db|Sistemas.(3).cnf
+db|Sistemas.(3).cnf
+# case_insensitive
+# source_file
+sistema02.bdf
+fa28020cf9291f7d6225549f42dffb
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Sistema02:inst1
+}
+# macro_sequence
+
+# end
+# entity
+Sistema01
+# storage
+db|Sistemas.(4).cnf
+db|Sistemas.(4).cnf
+# case_insensitive
+# source_file
+sistema01.bdf
+16aae92dbb76fadb86c9d89426f437
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Sistema01:inst
+}
+# macro_sequence
+
+# end
+# complete
+

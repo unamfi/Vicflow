@@ -1,0 +1,30 @@
+Release 8.2i ngdbuild I.31
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\bin\nt\ngdbuild.exe -ise F:/prac4/cc/cc.ise -intstyle
+ise -dd _ngo -nt timestamp -uc cop2.ucf -p xc3s200-ft256-5 cop2.ngc cop2.ngd
+
+Reading NGO file 'F:/prac4/cc/cop2.ngc' ...
+
+Applying constraints in "cop2.ucf" to the design...
+
+Checking timing specifications ...
+Checking Partitions ...
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 106888 kilobytes
+
+Writing NGD file "cop2.ngd" ...
+
+Writing NGDBUILD log file "cop2.bld"...

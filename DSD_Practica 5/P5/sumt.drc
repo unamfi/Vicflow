@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Mar 22 19:01:20 2016
+
+drc -z sumT.ncd sumT.pcf
+
+DRC detected 0 errors and 0 warnings.

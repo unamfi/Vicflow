@@ -1,0 +1,7 @@
+vhdl work "SumadorCompleto.vhd"
+vhdl work "FuncionB.vhd"
+vhdl work "Deco.vhd"
+vhdl work "Arithmetic.vhd"
+vhdl work "BlackBox.vhd"
+verilog work "black.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

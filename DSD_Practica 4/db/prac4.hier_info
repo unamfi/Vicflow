@@ -1,0 +1,17 @@
+|cop2
+E[0] => Mux0.IN19
+E[0] => Mux1.IN10
+E[0] => Mux2.IN5
+E[0] => S[0].DATAIN
+E[1] => Mux0.IN18
+E[1] => Mux1.IN9
+E[1] => Mux2.IN4
+E[2] => Mux0.IN17
+E[2] => Mux1.IN8
+E[3] => Mux0.IN16
+S[0] <= E[0].DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

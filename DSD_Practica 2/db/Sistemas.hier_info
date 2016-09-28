@@ -1,0 +1,56 @@
+|Completo
+salida[0] <= Sistema01:inst.F1
+salida[1] <= Sistema02:inst1.F2
+salida[2] <= Sistema03:inst2.F3
+salida[3] <= Sistema04:inst3.F4
+entrada[0] => Sistema04:inst3.c
+entrada[0] => Sistema03:inst2.c
+entrada[0] => Sistema02:inst1.c
+entrada[0] => Sistema01:inst.c
+entrada[1] => Sistema04:inst3.b
+entrada[1] => Sistema03:inst2.b
+entrada[1] => Sistema02:inst1.b
+entrada[1] => Sistema01:inst.b
+entrada[2] => Sistema04:inst3.a
+entrada[2] => Sistema03:inst2.a
+entrada[2] => Sistema02:inst1.a
+entrada[2] => Sistema01:inst.a
+
+
+|Completo|Sistema04:inst3
+F4 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+b => inst2.IN0
+b => inst.IN1
+b => inst3.IN1
+c => inst2.IN1
+c => inst.IN2
+a => inst.IN0
+a => inst3.IN0
+
+
+|Completo|Sistema03:inst2
+F3 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+a => inst5.IN0
+a => inst6.IN0
+c => inst7.IN0
+c => inst6.IN1
+b => inst8.IN1
+
+
+|Completo|Sistema02:inst1
+F2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+b => inst3.IN0
+a => inst.IN1
+a => inst4.IN0
+c => inst1.IN0
+
+
+|Completo|Sistema01:inst
+F1 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+b => inst5.IN0
+b => inst.IN1
+c => inst3.IN1
+c => inst.IN2
+a => inst.IN0
+
+

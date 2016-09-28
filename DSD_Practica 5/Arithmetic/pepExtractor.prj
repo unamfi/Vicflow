@@ -1,0 +1,5 @@
+work	"Arithmetic.vhd"
+work	"BlackBox.vhd"
+work	"Deco.vhd"
+work	"FuncionB.vhd"
+work	"SumadorCompleto.vhd"

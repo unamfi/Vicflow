@@ -1,0 +1,10 @@
+|practica3
+e[0] => s0~0.IN0
+e[1] => s0~0.IN1
+e[2] => ~NO_FANOUT~
+a[0] => s1~0.IN0
+a[1] => s1~0.IN1
+s0 <= s0~0.DB_MAX_OUTPUT_PORT_TYPE
+s1 <= s1~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

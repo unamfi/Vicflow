@@ -1,0 +1,7 @@
+xst -ise "F:/prac4/siete/siete.ise" -intstyle ise -ifn siete.xst -ofn siete.syr
+ngdbuild -ise "F:/prac4/siete/siete.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-5 "siete.ngc" siete.ngd
+ngdbuild -ise "F:/prac4/siete/siete.ise" -intstyle ise -dd _ngo -nt timestamp -uc "siete.ucf" -p xc3s200-ft256-5 "siete.ngc" siete.ngd
+map -ise "F:/prac4/siete/siete.ise" -intstyle ise -p xc3s200-ft256-5 -cm area -pr b -k 4 -c 100 -o siete_map.ncd siete.ngd siete.pcf
+par -ise "F:/prac4/siete/siete.ise" -w -intstyle ise -ol std -t 1 siete_map.ncd siete.ncd siete.pcf
+trce -ise "F:/prac4/siete/siete.ise" -intstyle ise -e 3 -l 3 -s 5 -xml siete siete.ncd -o siete.twr siete.pcf -ucf siete.ucf
+bitgen -ise "F:/prac4/siete/siete.ise" -intstyle ise -f siete.ut siete.ncd

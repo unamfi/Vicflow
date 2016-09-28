@@ -1,0 +1,12 @@
+|compuertas2
+Nands <= inst.DB_MAX_OUTPUT_PORT_TYPE
+A => inst15.IN0
+A => inst13.IN1
+A => inst14.IN0
+B => inst15.IN1
+B => inst13.IN0
+B => inst14.IN1
+Ors <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+Xors <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+
+

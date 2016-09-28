@@ -1,0 +1,4 @@
+vhdl work "p5.vhd"
+vhdl work "sumT.vhd"
+verilog work "Test.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

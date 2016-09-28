@@ -1,0 +1,20 @@
+xst -ise "C:/Users/alumno/Desktop/Practica5/P5/P5.ise" -intstyle ise -ifn sumT.xst -ofn sumT.syr
+xst -ise "C:/Users/alumno/Desktop/Practica5/P5/P5.ise" -intstyle ise -ifn sumT.xst -ofn sumT.syr
+xst -ise "C:/Users/alumno/Desktop/Practica5/P5/P5.ise" -intstyle ise -ifn sumT.xst -ofn sumT.syr
+xst -intstyle ise -filter "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/P5/iseconfig/filter.filter" -ifn "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/P5/sumT.xst" -ofn "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/P5/sumT.syr" 
+vhdtdtfi -lib work p5.vhd -lib work sumT.vhd -prj P5 -o sumT.spl -module sumT -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 sumT.spl E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/P5/sumT.sym 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-5 sumT.ngc sumT.ngd  
+map -filter "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/P5/iseconfig/filter.filter" -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr b -c 100 -o sumT_map.ncd sumT.ngd sumT.pcf 
+trce -filter E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/P5/iseconfig/filter.filter -intstyle ise -e 3 -s 5 -n 3 -xml sumT_preroute.twx sumT_map.ncd -o sumT_preroute.twr sumT.pcf 
+xst -intstyle ise -filter "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/P5/iseconfig/filter.filter" -ifn "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/P5/sumT.xst" -ofn "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/P5/sumT.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s200-ft256-5 sumT.ngc sumT.ngd  
+map -filter "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/P5/iseconfig/filter.filter" -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr b -c 100 -o sumT_map.ncd sumT.ngd sumT.pcf 
+par -filter "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/P5/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 sumT_map.ncd sumT.ncd sumT.pcf 
+trce -filter E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/P5/iseconfig/filter.filter -intstyle ise -e 3 -s 5 -n 3 -xml sumT.twx sumT.ncd -o sumT.twr sumT.pcf 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -uc Test.ucf -p xc3s200-ft256-5 sumT.ngc sumT.ngd  
+map -filter "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/P5/iseconfig/filter.filter" -intstyle ise -p xc3s200-ft256-5 -cm area -ir off -pr b -c 100 -o sumT_map.ncd sumT.ngd sumT.pcf 
+par -filter "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/P5/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 sumT_map.ncd sumT.ncd sumT.pcf 
+trce -filter E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/P5/iseconfig/filter.filter -intstyle ise -e 3 -s 5 -n 3 -xml sumT.twx sumT.ncd -o sumT.twr sumT.pcf -ucf Test.ucf 
+vhdtdtfi -prj P5 -o E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/P5/sumT.tfi -module sumT -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work p5.vhd -lib work sumT.vhd 
+bitgen -filter "iseconfig/filter.filter" -intstyle ise -f sumT.ut sumT.ncd 

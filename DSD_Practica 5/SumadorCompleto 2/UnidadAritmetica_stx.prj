@@ -1,0 +1,3 @@
+vhdl isim_temp "SumadorParalelo.vhd"
+vhdl isim_temp "SumadorCompleto.vhd"
+vhdl isim_temp "UnidadAritmetica.vhd"

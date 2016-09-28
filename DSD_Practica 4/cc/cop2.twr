@@ -1,0 +1,56 @@
+--------------------------------------------------------------------------------
+Release 8.2i Trace 
+Copyright (c) 1995-2006 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\bin\nt\trce.exe -ise F:/prac4/cc/cc.ise -intstyle ise -e 3 -l 3 -s 5
+-xml cop2 cop2.ncd -o cop2.twr cop2.pcf -ucf cop2.ucf
+
+Design file:              cop2.ncd
+Physical constraint file: cop2.pcf
+Device,speed:             xc3s200,-5 (PRODUCTION 1.38 2006-05-03)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+E<0>           |S<0>           |    6.590|
+E<0>           |S<1>           |    8.765|
+E<0>           |S<2>           |    8.331|
+E<0>           |S<3>           |    8.450|
+E<1>           |S<1>           |    7.968|
+E<1>           |S<2>           |    7.547|
+E<1>           |S<3>           |    8.036|
+E<2>           |S<2>           |    7.611|
+E<2>           |S<3>           |    7.631|
+E<3>           |S<3>           |    7.870|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Feb 29 11:06:37 2016
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 160 MB
+
+
+

@@ -1,0 +1,5 @@
+set -tmpdir "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/P5/xst/projnav.tmp"
+set -xsthdpdir "E:/UNAM_IngComputacion/5to_Semestre/DisenoSistemasDigitales/Laboratorio/DSD_Practica5/P5/xst"
+elaborate
+-ifn p5.prj
+-ifmt mixed
