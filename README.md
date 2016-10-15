@@ -12,14 +12,14 @@ Mi recomendación es que utilices estos programas una vez que no logres avanzar 
 ## Instalación
 
 Para poder correr cualquiera de los programas es necesario que tengas los siguientes programas:
-    1. Quartus 8+
-    2. Xilinx
+* Quartus 8+
+* Xilinx
 
 Cuando hayas instalado cualquiera de los dos programas solo es necesario encontrar el archivo con las configuraciones de proyecto y lo abres como si fuera cualquier proyecto en el programa.
 
 
 ## Autores
- *Juan Pablo Flores [Perfil](https://github.com/juanpflores/)
+ * Juan Pablo Flores [Perfil](https://github.com/juanpflores/)
 
 
 ## Contribuciones
