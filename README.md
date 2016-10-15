@@ -1,13 +1,11 @@
-![](https://raw.githubusercontent.com/unamfi//Lab-Diseno-de-Sistemas-Digitales/master/Banner.png)
-# Laboratorio de Diseño de Sistemas Digitales
-
+![](https://raw.githubusercontent.com/unamfi/Lab-Diseno-de-Sistemas-Digitales/master/Banner.png)
 ## Synopsis
 
-Practicas del Laboratorio de Diseño de Sistemas Digitales con el profesor Vicente Flores. 
+Practicas del Laboratorio de Diseño de Sistemas Digitales con el profesor Vicente Flores.
 
 ## Motivación
 
-Las practicas del laboratorio de DSD pueden ser algo tediosas de realizar. Por experiencia personal, toman tiempo para poder realizarlas y muchas veces no tienes los conocimientos suficientes para poder realizarlas al 100%. 
+Las practicas del laboratorio de DSD pueden ser algo tediosas de realizar. Por experiencia personal, toman tiempo para poder realizarlas y muchas veces no tienes los conocimientos suficientes para poder realizarlas al 100%.
 
 Mi recomendación es que utilices estos programas una vez que no logres avanzar en alguna de las prácticas y no cómo entregables.
 
@@ -17,7 +15,7 @@ Para poder correr cualquiera de los programas es necesario que tengas los siguie
     1. Quartus 8+
     2. Xilinx
 
-Cuando hayas instalado cualquiera de los dos programas solo es necesario encontrar el archivo con las configuraciones de proyecto y lo abres como si fuera cualquier proyecto en el programa. 
+Cuando hayas instalado cualquiera de los dos programas solo es necesario encontrar el archivo con las configuraciones de proyecto y lo abres como si fuera cualquier proyecto en el programa.
 
 
 ## Autores
