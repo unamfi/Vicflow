@@ -1,3 +1,4 @@
+![](https://raw.githubusercontent.com/unamfi//Lab-Diseno-de-Sistemas-Digitales/master/Banner.png)
 # Laboratorio de Diseño de Sistemas Digitales
 
 ## Synopsis
