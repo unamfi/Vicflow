@@ -19,8 +19,8 @@ Cuando hayas instalado cualquiera de los dos programas solo es necesario encontr
 
 
 ## Autores
- * Juan Pablo Flores [Perfil](https://github.com/juanpflores/)
-
+ * [Juan Pablo Flores](https://github.com/juanpflores/)
+ * [Julio Guzmán](https://github.com/juiiocesar/) 
 
 ## Contribuciones
 Para contribuir con el repositorio puedes dar de alta un [issue](https://github.com/unamfi/Lab-Diseno-de-Sistemas-Digitales/issues) o manda un Pull Request.
